@@ -1,0 +1,14 @@
+{
+  "version": "v4.25",
+  "corpus": "Gold v4 development regression",
+  "blind": false,
+  "gold_events": 94,
+  "predicted_events": 94,
+  "tp": 94,
+  "fp": 0,
+  "fn": 0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1": 1.0,
+  "note": "Gold v4 was used to develop v4.25; these are regression metrics, not a generalization claim."
+}

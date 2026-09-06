@@ -1,0 +1,26 @@
+[
+  {
+    "document": "competitivite-prix-de-l-economie-tunisienne - Copy(2).pdf",
+    "events": 372,
+    "table_events": 333,
+    "sector_events": 250,
+    "validated": 354,
+    "needs_review": 17,
+    "rejected": 1,
+    "numeric_mentions": 437,
+    "unresolved_numeric_mentions": 33,
+    "runtime_seconds": 26.917
+  },
+  {
+    "document": "ecolingua_v428_complex_multi_test(8).pdf",
+    "events": 156,
+    "table_events": 65,
+    "sector_events": 0,
+    "validated": 84,
+    "needs_review": 69,
+    "rejected": 3,
+    "numeric_mentions": 261,
+    "unresolved_numeric_mentions": 17,
+    "runtime_seconds": 13.268
+  }
+]

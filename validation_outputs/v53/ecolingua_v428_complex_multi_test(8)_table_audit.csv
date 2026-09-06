@@ -1,0 +1,4 @@
+﻿page,table_index,rows,columns,events,status,bbox
+3,0,19,6,54,extracted,"[107.01, 205.27, 488.27, 547.27]"
+3,1,11,6,10,extracted,"[107.01, 591.27, 488.27, 789.27]"
+4,0,2,6,1,extracted,"[106.3, 44.27, 488.98, 80.27]"

@@ -1,0 +1,262 @@
+﻿page,clause_index,raw_token,evidence,structure_type,outcome,event_hint,reason
+1,0.0,"2,6","Après avoir progressé de 2,6% en 2023, le PIB réel n'a augmenté que de 1,9% en 2024, soit 0,7 point de moins que l'année précédente.",narrative,extracted,gdp_growth:2.6:2023,
+1,0.0,2023,"Après avoir progressé de 2,6% en 2023, le PIB réel n'a augmenté que de 1,9% en 2024, soit 0,7 point de moins que l'année précédente.",narrative,excluded,,period_token
+1,0.0,"1,9","Après avoir progressé de 2,6% en 2023, le PIB réel n'a augmenté que de 1,9% en 2024, soit 0,7 point de moins que l'année précédente.",narrative,extracted,gdp_growth:1.9:2024,
+1,0.0,2024,"Après avoir progressé de 2,6% en 2023, le PIB réel n'a augmenté que de 1,9% en 2024, soit 0,7 point de moins que l'année précédente.",narrative,excluded,,period_token
+1,0.0,"0,7","Après avoir progressé de 2,6% en 2023, le PIB réel n'a augmenté que de 1,9% en 2024, soit 0,7 point de moins que l'année précédente.",narrative,extracted,gdp_growth:0.7:2023,
+1,0.0,2025,"Pour 2025, l'activité serait en hausse de 2,2%, avant une accélération projetée à 2,4% en 2026.",narrative,excluded,,period_token
+1,0.0,"2,2","Pour 2025, l'activité serait en hausse de 2,2%, avant une accélération projetée à 2,4% en 2026.",narrative,extracted,gdp_growth:2.2:2025,
+1,0.0,"2,4","Pour 2025, l'activité serait en hausse de 2,2%, avant une accélération projetée à 2,4% en 2026.",narrative,extracted,gdp_growth:2.4:2026,
+1,0.0,2026,"Pour 2025, l'activité serait en hausse de 2,2%, avant une accélération projetée à 2,4% en 2026.",narrative,excluded,,period_token
+1,0.0,"2,8","En glissement annuel, l'indice des prix à la consommation a augmenté de 2,8% en décembre 2024.",narrative,extracted,inflation_rate:2.8:2024-M12,
+1,0.0,2024,"En glissement annuel, l'indice des prix à la consommation a augmenté de 2,8% en décembre 2024.",narrative,excluded,,period_token
+1,0.0,"3,1","Trois mois auparavant, la hausse était encore de 3,1%, alors que l'inflation moyenne sur l'ensemble de 2024 s'est établie à 2,6%.",narrative,extracted,inflation_annual_average:3.1:2024-M09,
+1,0.0,2024,"Trois mois auparavant, la hausse était encore de 3,1%, alors que l'inflation moyenne sur l'ensemble de 2024 s'est établie à 2,6%.",narrative,excluded,,period_token
+1,0.0,"2,6","Trois mois auparavant, la hausse était encore de 3,1%, alors que l'inflation moyenne sur l'ensemble de 2024 s'est établie à 2,6%.",narrative,extracted,inflation_annual_average:2.6:2024,
+1,0.0,"6,4","Le chômage s'est établi à 6,4% au quatrième trimestre 2024, contre 6,6% au trimestre précédent et 6,8% six mois plus tôt.",narrative,extracted,unemployment_rate:6.4:2024-Q4,
+1,0.0,2024,"Le chômage s'est établi à 6,4% au quatrième trimestre 2024, contre 6,6% au trimestre précédent et 6,8% six mois plus tôt.",narrative,excluded,,period_token
+1,0.0,"6,6","Le chômage s'est établi à 6,4% au quatrième trimestre 2024, contre 6,6% au trimestre précédent et 6,8% six mois plus tôt.",narrative,extracted,unemployment_rate:6.6:2024-Q3,
+1,0.0,"6,8","Le chômage s'est établi à 6,4% au quatrième trimestre 2024, contre 6,6% au trimestre précédent et 6,8% six mois plus tôt.",narrative,extracted,unemployment_rate:6.8:2024-Q2,
+1,0.0,"99,1","La dette publique est revenue de 99,1% du PIB en 2023 à 95,7% en 2024.",narrative,extracted,public_debt_ratio:99.1:2023,
+1,0.0,2023,"La dette publique est revenue de 99,1% du PIB en 2023 à 95,7% en 2024.",narrative,excluded,,period_token
+1,0.0,"95,7","La dette publique est revenue de 99,1% du PIB en 2023 à 95,7% en 2024.",narrative,extracted,public_debt_ratio:95.7:2024,
+1,0.0,2024,"La dette publique est revenue de 99,1% du PIB en 2023 à 95,7% en 2024.",narrative,excluded,,period_token
+1,0.0,93,Elle devrait tomber sous 93% en 2025 selon le scénario central.,narrative,extracted,public_debt_ratio:93.0:2025,
+1,0.0,2025,Elle devrait tomber sous 93% en 2025 selon le scénario central.,narrative,excluded,,period_token
+1,0.0,"1,2","Le déficit du compte courant, qui représentait 1,2% du PIB deux ans auparavant, a été ramené à 0,4% en 2024.",narrative,extracted,current_account_balance:-1.2:2022,
+1,0.0,"0,4","Le déficit du compte courant, qui représentait 1,2% du PIB deux ans auparavant, a été ramené à 0,4% en 2024.",narrative,extracted,current_account_balance:-0.4:2024,
+1,0.0,2024,"Le déficit du compte courant, qui représentait 1,2% du PIB deux ans auparavant, a été ramené à 0,4% en 2024.",narrative,excluded,,period_token
+1,0.0,2025,"En 2025, le solde serait légèrement excédentaire, à 0,2% du PIB.",narrative,excluded,,period_token
+1,0.0,"0,2","En 2025, le solde serait légèrement excédentaire, à 0,2% du PIB.",narrative,unresolved,,unbound_numeric_token
+1,0.0,"2,5","Le PIB a progressé de 2,5% en 2024.",narrative,extracted,gdp_growth:2.5:2024,
+1,0.0,2024,"Le PIB a progressé de 2,5% en 2024.",narrative,excluded,,period_token
+1,0.0,"1,9","L'année d'avant, sa croissance n'avait été que de 1,9%; deux années auparavant, elle atteignait 2,6%.",narrative,extracted,gdp_growth:1.9:2023,
+1,0.0,"2,6","L'année d'avant, sa croissance n'avait été que de 1,9%; deux années auparavant, elle atteignait 2,6%.",narrative,extracted,gdp_growth:2.6:2022,
+1,0.0,"2,8","La croissance est estimée à 2,8% en 2025 et projetée à 3,0% en 2026.",narrative,extracted,gdp_growth:2.8:2025,
+1,0.0,2025,"La croissance est estimée à 2,8% en 2025 et projetée à 3,0% en 2026.",narrative,excluded,,period_token
+1,0.0,"3,0","La croissance est estimée à 2,8% en 2025 et projetée à 3,0% en 2026.",narrative,extracted,gdp_growth:3.0:2026,
+1,0.0,2026,"La croissance est estimée à 2,8% en 2025 et projetée à 3,0% en 2026.",narrative,excluded,,period_token
+1,0.0,10 420,"Les exportations de biens ont atteint 10 420 milliards de bahts en 2024, contre 9 870 milliards l'année précédente.",narrative,extracted,exports:10420.0:2024,
+1,0.0,2024,"Les exportations de biens ont atteint 10 420 milliards de bahts en 2024, contre 9 870 milliards l'année précédente.",narrative,excluded,,period_token
+1,0.0,9 870,"Les exportations de biens ont atteint 10 420 milliards de bahts en 2024, contre 9 870 milliards l'année précédente.",narrative,extracted,exports:9870.0:2023,
+1,0.0,2025,"Sur les neuf premiers mois de 2025, elles se seraient élevées à 8 240 milliards de bahts.",narrative,excluded,,period_token
+1,0.0,8 240,"Sur les neuf premiers mois de 2025, elles se seraient élevées à 8 240 milliards de bahts.",narrative,extracted,exports:8240.0:2025-M01:M09,
+1,0.0,2024,"En décembre 2024, l'inflation sur douze mois était de 1,2%.",narrative,excluded,,period_token
+1,0.0,"1,2","En décembre 2024, l'inflation sur douze mois était de 1,2%.",narrative,extracted,inflation_rate:1.2:2024-M12,
+1,0.0,"0,9","Un mois auparavant elle s'établissait à 0,9%",narrative,extracted,inflation_rate:0.9:2024-M11,
+1,1.0,2023,"en décembre 2023 elle était négative, à -0,8%.",narrative,excluded,,period_token
+1,1.0,"-0,8","en décembre 2023 elle était négative, à -0,8%.",narrative,extracted,inflation_rate:-0.8:2023-M12,
+1,0.0,"237,4","Les réserves de change ont atteint 237,4 milliards USD à fin 2024.",narrative,extracted,foreign_exchange_reserves:237.4:2024,
+1,0.0,2024,"Les réserves de change ont atteint 237,4 milliards USD à fin 2024.",narrative,excluded,,period_token
+1,0.0,2025,"À fin mars 2025, elles étaient estimées à 241,1 milliards USD.",narrative,excluded,,period_token
+1,0.0,"241,1","À fin mars 2025, elles étaient estimées à 241,1 milliards USD.",narrative,extracted,foreign_exchange_reserves:241.1:2025-M03,
+1,0.0,"118,3","L'inflation moyenne annuelle a atteint 118,3% en 2024.",narrative,extracted,inflation_annual_average:118.3:2024,
+1,0.0,2024,"L'inflation moyenne annuelle a atteint 118,3% en 2024.",narrative,excluded,,period_token
+1,0.0,"211,4","Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,unresolved,,unbound_numeric_token
+1,0.0,2023,"Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,excluded,,period_token
+1,0.0,"117,8","Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,unresolved,,unbound_numeric_token
+1,0.0,2024,"Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,excluded,,period_token
+1,0.0,"82,1","Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,unresolved,,unbound_numeric_token
+1,0.0,2024,"Le rythme sur douze mois, beaucoup plus faible en fin d'année, est passé de 211,4% en décembre 2023 à 117,8% en juin 2024 puis à 82,1% en décembre 2024.",narrative,excluded,,period_token
+1,0.0,"1,7","Après une contraction de 1,7% en 2024, le PIB réel devrait rebondir de 4,8% en 2025.",narrative,unresolved,,unbound_numeric_token
+1,0.0,2024,"Après une contraction de 1,7% en 2024, le PIB réel devrait rebondir de 4,8% en 2025.",narrative,excluded,,period_token
+1,0.0,"4,8","Après une contraction de 1,7% en 2024, le PIB réel devrait rebondir de 4,8% en 2025.",narrative,unresolved,,unbound_numeric_token
+1,0.0,2025,"Après une contraction de 1,7% en 2024, le PIB réel devrait rebondir de 4,8% en 2025.",narrative,excluded,,period_token
+1,0.0,"4,4","Le solde budgétaire global est passé d'un déficit de 4,4% du PIB en 2023 à un excédent de 0,3% en 2024.",narrative,extracted,budget_deficit:4.4:2023,
+1,0.0,2023,"Le solde budgétaire global est passé d'un déficit de 4,4% du PIB en 2023 à un excédent de 0,3% en 2024.",narrative,excluded,,period_token
+1,0.0,"0,3","Le solde budgétaire global est passé d'un déficit de 4,4% du PIB en 2023 à un excédent de 0,3% en 2024.",narrative,extracted,budget_deficit:0.3:2024,
+1,0.0,2024,"Le solde budgétaire global est passé d'un déficit de 4,4% du PIB en 2023 à un excédent de 0,3% en 2024.",narrative,excluded,,period_token
+1,0.0,"1,8","Hors intérêts, le solde primaire a atteint 1,8% du PIB.",narrative,extracted,primary_balance:1.8:2023,
+1,0.0,"79,7","Les exportations ont totalisé 79,7 milliards USD en 2024, contre 66,8 milliards USD un an plus tôt",narrative,extracted,exports:79.7:2024,
+1,0.0,2024,"Les exportations ont totalisé 79,7 milliards USD en 2024, contre 66,8 milliards USD un an plus tôt",narrative,excluded,,period_token
+1,0.0,"66,8","Les exportations ont totalisé 79,7 milliards USD en 2024, contre 66,8 milliards USD un an plus tôt",narrative,extracted,exports:66.8:2023,
+1,1.0,"73,7","les importations, elles, ont reculé de 73,7 à 60,1 milliards USD.",narrative,extracted,imports:73.7:2024,
+1,1.0,"60,1","les importations, elles, ont reculé de 73,7 à 60,1 milliards USD.",narrative,extracted,imports:60.1:2024,
+1,0.0,"84,6","Une estimation préliminaire situait la dette publique à 84,6% du PIB fin 2024.",narrative,extracted,public_debt_ratio:84.6:2024,
+1,0.0,2024,"Une estimation préliminaire situait la dette publique à 84,6% du PIB fin 2024.",narrative,excluded,,period_token
+1,0.0,2024,"En 2024, la croissance du PIB a atteint 5,1%, après 3,6% en 2023.",narrative,excluded,,period_token
+1,0.0,"5,1","En 2024, la croissance du PIB a atteint 5,1%, après 3,6% en 2023.",narrative,extracted,gdp_growth:5.1:2024,
+1,0.0,"3,6","En 2024, la croissance du PIB a atteint 5,1%, après 3,6% en 2023.",narrative,extracted,gdp_growth:3.6:2023,
+1,0.0,2023,"En 2024, la croissance du PIB a atteint 5,1%, après 3,6% en 2023.",narrative,excluded,,period_token
+1,0.0,2025,"Au premier trimestre 2025, elle a ralenti à 4,4% sur un an",narrative,excluded,,period_token
+1,0.0,"4,4","Au premier trimestre 2025, elle a ralenti à 4,4% sur un an",narrative,extracted,gdp_growth:4.4:2025-Q1,
+1,1.0,"4,7","au trimestre suivant, elle aurait légèrement accéléré à 4,7%.",narrative,extracted,gdp_growth:4.7:2025-Q2,
+2,0.0,"1,8","L'inflation moyenne s'est établie à 1,8% en 2024.",narrative,extracted,inflation_annual_average:1.8:2024,
+2,0.0,2024,"L'inflation moyenne s'est établie à 1,8% en 2024.",narrative,excluded,,period_token
+2,0.0,2025,"En janvier 2025, elle était de 1,7%; deux mois plus tard, elle atteignait 1,9 %.",narrative,excluded,,period_token
+2,0.0,"1,7","En janvier 2025, elle était de 1,7%; deux mois plus tard, elle atteignait 1,9 %.",narrative,extracted,inflation_annual_average:1.7:2025-M01,
+2,0.0,"1,9","En janvier 2025, elle était de 1,7%; deux mois plus tard, elle atteignait 1,9 %.",narrative,extracted,inflation_annual_average:1.9:2025-M03,
+2,0.0,"47,3","Les investissements directs étrangers nets ont représenté 47,3 milliards de ringgits en 2024.",narrative,extracted,foreign_direct_investment:47.3:2024,
+2,0.0,2024,"Les investissements directs étrangers nets ont représenté 47,3 milliards de ringgits en 2024.",narrative,excluded,,period_token
+2,0.0,"26,8","Ils sont provisoirement estimés à 26,8 milliards sur le premier semestre 2025.",narrative,extracted,foreign_direct_investment:26.8:2025-H1,
+2,0.0,2025,"Ils sont provisoirement estimés à 26,8 milliards sur le premier semestre 2025.",narrative,excluded,,period_token
+2,0.0,"64,1","La dette de l'administration centrale représentait 64,1% du PIB fin 2024, contre 62,9% l'année précédente.",narrative,extracted,public_debt_ratio:64.1:2024,
+2,0.0,2024,"La dette de l'administration centrale représentait 64,1% du PIB fin 2024, contre 62,9% l'année précédente.",narrative,excluded,,period_token
+2,0.0,"62,9","La dette de l'administration centrale représentait 64,1% du PIB fin 2024, contre 62,9% l'année précédente.",narrative,extracted,public_debt_ratio:62.9:2023,
+2,0.0,"1,5","Le compte courant a dégagé un excédent de 1,5% du PIB en 2024.",narrative,extracted,current_account_balance:1.5:2024,
+2,0.0,2024,"Le compte courant a dégagé un excédent de 1,5% du PIB en 2024.",narrative,excluded,,period_token
+2,0.0,2025,"Il devrait rester positif en 2025, mais se réduire à environ 1,1%.",narrative,excluded,,period_token
+2,0.0,"1,1","Il devrait rester positif en 2025, mais se réduire à environ 1,1%.",narrative,extracted,current_account_balance:1.1:2025,
+2,0.0,"0,2","Après seulement 0,2% en 2023, la croissance du PIB a rebondi à 2,9% en 2024.",narrative,extracted,gdp_growth:0.2:2023,
+2,0.0,2023,"Après seulement 0,2% en 2023, la croissance du PIB a rebondi à 2,9% en 2024.",narrative,excluded,,period_token
+2,0.0,"2,9","Après seulement 0,2% en 2023, la croissance du PIB a rebondi à 2,9% en 2024.",narrative,extracted,gdp_growth:2.9:2024,
+2,0.0,2024,"Après seulement 0,2% en 2023, la croissance du PIB a rebondi à 2,9% en 2024.",narrative,excluded,,period_token
+2,0.0,"3,4","Elle est prévue à 3,4% en 2025 et à 3,1% l'année suivante.",narrative,extracted,gdp_growth:3.4:2025,
+2,0.0,2025,"Elle est prévue à 3,4% en 2025 et à 3,1% l'année suivante.",narrative,excluded,,period_token
+2,0.0,"3,1","Elle est prévue à 3,4% en 2025 et à 3,1% l'année suivante.",narrative,extracted,gdp_growth:3.1:2026,
+2,0.0,"4,7","Le taux d'inflation annuel était de 4,7% en décembre 2024, contre 4,6% le mois précédent.",narrative,extracted,inflation_rate:4.7:2024-M12,
+2,0.0,2024,"Le taux d'inflation annuel était de 4,7% en décembre 2024, contre 4,6% le mois précédent.",narrative,excluded,,period_token
+2,0.0,"4,6","Le taux d'inflation annuel était de 4,7% en décembre 2024, contre 4,6% le mois précédent.",narrative,extracted,inflation_rate:4.6:2024-M11,
+2,0.0,"5,1","Le déficit public s'est creusé de 5,1% du PIB en 2023 à 5,9% en 2024.",narrative,extracted,budget_deficit:5.1:2023,
+2,0.0,2023,"Le déficit public s'est creusé de 5,1% du PIB en 2023 à 5,9% en 2024.",narrative,excluded,,period_token
+2,0.0,"5,9","Le déficit public s'est creusé de 5,1% du PIB en 2023 à 5,9% en 2024.",narrative,extracted,budget_deficit:5.9:2024,
+2,0.0,2024,"Le déficit public s'est creusé de 5,1% du PIB en 2023 à 5,9% en 2024.",narrative,excluded,,period_token
+2,0.0,"5,5","Il serait encore de 5,5% en 2025 avant de se réduire à 4,6% en 2026.",narrative,extracted,budget_deficit:5.5:2025,
+2,0.0,2025,"Il serait encore de 5,5% en 2025 avant de se réduire à 4,6% en 2026.",narrative,excluded,,period_token
+2,0.0,"4,6","Il serait encore de 5,5% en 2025 avant de se réduire à 4,6% en 2026.",narrative,extracted,budget_deficit:4.6:2026,
+2,0.0,2026,"Il serait encore de 5,5% en 2025 avant de se réduire à 4,6% en 2026.",narrative,excluded,,period_token
+2,0.0,1 512,"Les exportations de marchandises ont représenté 1 512 milliards de zlotys en 2024, soit une baisse de 1,6% par rapport à l'année d'avant.",narrative,extracted,exports:1512.0:2024,
+2,0.0,2024,"Les exportations de marchandises ont représenté 1 512 milliards de zlotys en 2024, soit une baisse de 1,6% par rapport à l'année d'avant.",narrative,excluded,,period_token
+2,0.0,"1,6","Les exportations de marchandises ont représenté 1 512 milliards de zlotys en 2024, soit une baisse de 1,6% par rapport à l'année d'avant.",narrative,extracted,exports:1.6:2023,
+2,0.0,"2,1","Les importations ont progressé de 2,1% à 1 498 milliards.",narrative,extracted,imports_growth:2.1:2024,
+2,0.0,1 498,"Les importations ont progressé de 2,1% à 1 498 milliards.",narrative,extracted,imports:1498.0:2024,
+2,0.0,2 202,"Au T2 2025, le chômage harmonisé était de 3,1%.",narrative,unresolved,,unbound_numeric_token
+2,0.0,5,"Au T2 2025, le chômage harmonisé était de 3,1%.",narrative,unresolved,,unbound_numeric_token
+2,0.0,"3,1","Au T2 2025, le chômage harmonisé était de 3,1%.",narrative,extracted,unemployment_rate:3.1:2025-Q2,
+2,0.0,"3,0","Le trimestre précédent, il s'établissait à 3,0%",narrative,extracted,unemployment_rate:3.0:2025-Q1,
+2,1.0,2024,"au même trimestre de 2024, il était de 2,9%.",narrative,excluded,,period_token
+2,1.0,"2,9","au même trimestre de 2024, il était de 2,9%.",narrative,extracted,unemployment_rate:2.9:2024,
+2,0.0,"4,3","La croissance réelle a accéléré de 4,3% en 2023 à 6,1% en 2024.",narrative,extracted,gdp_growth:4.3:2023,
+2,0.0,2023,"La croissance réelle a accéléré de 4,3% en 2023 à 6,1% en 2024.",narrative,excluded,,period_token
+2,0.0,"6,1","La croissance réelle a accéléré de 4,3% en 2023 à 6,1% en 2024.",narrative,extracted,gdp_growth:6.1:2024,
+2,0.0,2024,"La croissance réelle a accéléré de 4,3% en 2023 à 6,1% en 2024.",narrative,excluded,,period_token
+2,0.0,"8,4","Avec la montée en puissance de nouvelles capacités productives, elle pourrait atteindre 8,4% en 2025, avant de revenir à 6,7% en 2026.",narrative,unresolved,,unbound_numeric_token
+2,0.0,2025,"Avec la montée en puissance de nouvelles capacités productives, elle pourrait atteindre 8,4% en 2025, avant de revenir à 6,7% en 2026.",narrative,excluded,,period_token
+2,0.0,"6,7","Avec la montée en puissance de nouvelles capacités productives, elle pourrait atteindre 8,4% en 2025, avant de revenir à 6,7% en 2026.",narrative,unresolved,,unbound_numeric_token
+2,0.0,2026,"Avec la montée en puissance de nouvelles capacités productives, elle pourrait atteindre 8,4% en 2025, avant de revenir à 6,7% en 2026.",narrative,excluded,,period_token
+2,0.0,"2,2","L'inflation moyenne est tombée à 2,2% en 2024, contre 5,9% l'année précédente.",narrative,extracted,inflation_annual_average:2.2:2024,
+2,0.0,2024,"L'inflation moyenne est tombée à 2,2% en 2024, contre 5,9% l'année précédente.",narrative,excluded,,period_token
+2,0.0,"5,9","L'inflation moyenne est tombée à 2,2% en 2024, contre 5,9% l'année précédente.",narrative,extracted,inflation_annual_average:5.9:2023,
+2,0.0,"1,4","En décembre, le taux sur douze mois n'était plus que de 1,4%.",narrative,unresolved,,unbound_numeric_token
+2,0.0,"4,8","Le déficit budgétaire s'est établi à 4,8% du PIB en 2024.",narrative,extracted,budget_deficit:4.8:2024,
+2,0.0,2024,"Le déficit budgétaire s'est établi à 4,8% du PIB en 2024.",narrative,excluded,,period_token
+2,0.0,4 120,Les recettes publiques ont atteint 4 120 milliards de francs CFA en 2024,narrative,extracted,public_revenue:4120.0:2024,
+2,0.0,2024,Les recettes publiques ont atteint 4 120 milliards de francs CFA en 2024,narrative,excluded,,period_token
+2,1.0,5 040,les dépenses s'élevaient à 5 040 milliards.,narrative,extracted,public_expenditure:5040.0:2024,
+2,0.0,2025,"Pour 2025, les recettes sont projetées à 4 680 milliards.",narrative,excluded,,period_token
+2,0.0,4 680,"Pour 2025, les recettes sont projetées à 4 680 milliards.",narrative,extracted,public_revenue:4680.0:2025,
+2,0.0,"15,3","Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,extracted,current_account_balance:-15.3:2023,
+2,0.0,2023,"Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,excluded,,period_token
+2,0.0,"10,2","Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,extracted,current_account_balance:-10.2:2024,
+2,0.0,2024,"Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,excluded,,period_token
+2,0.0,"6,8","Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,extracted,current_account_balance:-6.8:2025,
+2,0.0,2025,"Le déficit du compte courant a diminué de 15,3% du PIB en 2023 à 10,2% en 2024 et devrait se contracter à 6,8% en 2025.",narrative,excluded,,period_token
+3,0.0,2024,"Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,excluded,,period_token
+3,0.0,"6,1","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:6.1:2024,
+3,0.0,"5,1","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:5.1:2024,
+3,0.0,"2,9","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:2.9:2024,
+3,0.0,"2,5","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:2.5:2024,
+3,0.0,"1,9","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:1.9:2024,
+3,0.0,"1,7","Comparaisons transversales Parmi les six économies étudiées, la croissance 2024 a été la plus élevée au Sénégal (6,1%), devant la Malaisie (5,1%), la Pologne (2,9%), la Thaïlande (2,5%) et le Portugal (1,9%), tandis que l'Argentine s'est contractée de 1,7%.",narrative,extracted,gdp_growth:1.7:2024,
+3,0.0,2023,"Entre 2023 et 2024, l'inflation moyenne a diminué de 3,7 points au Sénégal, mais le ralentissement a été beaucoup plus spectaculaire en Argentine, où la comparaison entre moyennes annuelles reste toutefois délicate compte tenu de la forte variation intra-annuelle.",narrative,excluded,,period_token
+3,0.0,2024,"Entre 2023 et 2024, l'inflation moyenne a diminué de 3,7 points au Sénégal, mais le ralentissement a été beaucoup plus spectaculaire en Argentine, où la comparaison entre moyennes annuelles reste toutefois délicate compte tenu de la forte variation intra-annuelle.",narrative,excluded,,period_token
+3,0.0,"3,7","Entre 2023 et 2024, l'inflation moyenne a diminué de 3,7 points au Sénégal, mais le ralentissement a été beaucoup plus spectaculaire en Argentine, où la comparaison entre moyennes annuelles reste toutefois délicate compte tenu de la forte variation intra-annuelle.",narrative,extracted,inflation_annual_average:3.7:2024,
+3,0.0,2025,"En 2025, les prévisions de croissance s'échelonnent de 2,2% au Portugal à 8,4% au Sénégal.",narrative,excluded,,period_token
+3,0.0,"2,2","En 2025, les prévisions de croissance s'échelonnent de 2,2% au Portugal à 8,4% au Sénégal.",narrative,extracted,gdp_growth:2.2:2025,
+3,0.0,"8,4","En 2025, les prévisions de croissance s'échelonnent de 2,2% au Portugal à 8,4% au Sénégal.",narrative,extracted,gdp_growth:8.4:2025,
+5,0.0,2024,"Révisions, conflits et formulations ambiguës Pour le Portugal, une note publiée en janvier avait évalué la croissance 2024 à 1,8%.",narrative,excluded,,period_token
+5,0.0,"1,8","Révisions, conflits et formulations ambiguës Pour le Portugal, une note publiée en janvier avait évalué la croissance 2024 à 1,8%.",narrative,extracted,gdp_growth:1.8:2024-M01,
+5,0.0,2024,"En Argentine, la dette publique de fin 2024 est donnée à 84,6% du PIB dans l'estimation préliminaire et à 83,2% dans la série révisée.",narrative,excluded,,period_token
+5,0.0,"84,6","En Argentine, la dette publique de fin 2024 est donnée à 84,6% du PIB dans l'estimation préliminaire et à 83,2% dans la série révisée.",narrative,extracted,public_debt_ratio:84.6:2024,
+5,0.0,"83,2","En Argentine, la dette publique de fin 2024 est donnée à 84,6% du PIB dans l'estimation préliminaire et à 83,2% dans la série révisée.",narrative,extracted,public_debt_ratio:83.2:2024,
+5,0.0,"0,4","Pour le Sénégal, « le déficit s'est réduit de 0,4 point à 4,8% du PIB » signifie que le niveau final est 4,8% et que 0,4 point est une variation, pas un second niveau du déficit.",narrative,unresolved,,unbound_numeric_token
+5,0.0,"4,8","Pour le Sénégal, « le déficit s'est réduit de 0,4 point à 4,8% du PIB » signifie que le niveau final est 4,8% et que 0,4 point est une variation, pas un second niveau du déficit.",narrative,unresolved,,unbound_numeric_token
+5,0.0,"4,8","Pour le Sénégal, « le déficit s'est réduit de 0,4 point à 4,8% du PIB » signifie que le niveau final est 4,8% et que 0,4 point est une variation, pas un second niveau du déficit.",narrative,unresolved,,unbound_numeric_token
+5,0.0,"0,4","Pour le Sénégal, « le déficit s'est réduit de 0,4 point à 4,8% du PIB » signifie que le niveau final est 4,8% et que 0,4 point est une variation, pas un second niveau du déficit.",narrative,unresolved,,unbound_numeric_token
+5,0.0,"1,6","En Pologne, les exportations ont diminué de 1,6% pour atteindre 1 512 milliards de zlotys.",narrative,extracted,exports_growth:-1.6:2024,
+5,0.0,1 512,"En Pologne, les exportations ont diminué de 1,6% pour atteindre 1 512 milliards de zlotys.",narrative,extracted,exports:1512.0:2024,
+5,0.0,"3,7","En Thaïlande, les réserves de change ont augmenté de 3,7 milliards USD entre fin décembre 2024 et fin mars 2025, passant de 237,4 à 241,1 milliards USD.",narrative,unresolved,,unbound_numeric_token
+5,0.0,2024,"En Thaïlande, les réserves de change ont augmenté de 3,7 milliards USD entre fin décembre 2024 et fin mars 2025, passant de 237,4 à 241,1 milliards USD.",narrative,excluded,,period_token
+5,0.0,2025,"En Thaïlande, les réserves de change ont augmenté de 3,7 milliards USD entre fin décembre 2024 et fin mars 2025, passant de 237,4 à 241,1 milliards USD.",narrative,excluded,,period_token
+5,0.0,"237,4","En Thaïlande, les réserves de change ont augmenté de 3,7 milliards USD entre fin décembre 2024 et fin mars 2025, passant de 237,4 à 241,1 milliards USD.",narrative,extracted,foreign_exchange_reserves:237.4:2024-M12,
+5,0.0,"241,1","En Thaïlande, les réserves de change ont augmenté de 3,7 milliards USD entre fin décembre 2024 et fin mars 2025, passant de 237,4 à 241,1 milliards USD.",narrative,extracted,foreign_exchange_reserves:241.1:2025-M03,
+5,0.0,2025,"En Malaisie, la croissance du deuxième trimestre 2025, estimée à 4,7% sur un an, ne doit pas être interprétée comme une croissance de 4,7% par rapport au premier trimestre.",narrative,excluded,,period_token
+5,0.0,"4,7","En Malaisie, la croissance du deuxième trimestre 2025, estimée à 4,7% sur un an, ne doit pas être interprétée comme une croissance de 4,7% par rapport au premier trimestre.",narrative,extracted,gdp_growth:4.7:2025-Q2,
+5,0.0,"4,7","En Malaisie, la croissance du deuxième trimestre 2025, estimée à 4,7% sur un an, ne doit pas être interprétée comme une croissance de 4,7% par rapport au premier trimestre.",narrative,unresolved,,unbound_numeric_token
+5,0.0,2024,"Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,excluded,,period_token
+5,0.0,"1,9","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,gdp_growth:1.9:2024,
+5,0.0,"2,6","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,inflation_annual_average:2.6:2024,
+5,0.0,"6,4","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,unemployment_rate:6.4:2024-Q4,
+5,0.0,"2,9","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,gdp_growth:2.9:2024,
+5,0.0,"3,7","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,inflation_annual_average:3.7:2024,
+5,0.0,"3,1","Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,extracted,unemployment_rate:3.1:2025-Q2,
+5,0.0,2025,"Passage avec plusieurs indicateurs dans une seule phrase En 2024, le Portugal a enregistré une croissance de 1,9%, une inflation moyenne de 2,6% et un chômage de 6,4% au quatrième trimestre; la Pologne affichait respectivement 2,9%, 3,7% et 3,1% pour le chômage au deuxième trimestre 2025, ce dernier chiffre n'étant donc pas strictement contemporain des deux premiers.",narrative,excluded,,period_token
+5,0.0,4 120,"Au Sénégal, les recettes de 4 120 milliards de francs CFA",narrative,extracted,public_revenue:4120.0:2024,
+5,1.0,5 040,"les dépenses de 5 040 milliards en 2024 coexistent avec un déficit budgétaire de 4,8% du PIB; ces grandeurs ne partagent ni la même unité ni la même interprétation.",narrative,extracted,public_expenditure:5040.0:2024,
+5,1.0,2024,"les dépenses de 5 040 milliards en 2024 coexistent avec un déficit budgétaire de 4,8% du PIB; ces grandeurs ne partagent ni la même unité ni la même interprétation.",narrative,excluded,,period_token
+5,1.0,"4,8","les dépenses de 5 040 milliards en 2024 coexistent avec un déficit budgétaire de 4,8% du PIB; ces grandeurs ne partagent ni la même unité ni la même interprétation.",narrative,extracted,budget_deficit:4.8:2024,
+3,,2.6,"Tableau 1, page 3 — Portugal | 2023 | 2,6 | 4,3 | 99,1 | Observé × PIB réel (%)",table,extracted,gdp_growth:2.6:2023,
+3,,4.3,"Tableau 1, page 3 — Portugal | 2023 | 2,6 | 4,3 | 99,1 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:4.3:2023,
+3,,99.1,"Tableau 1, page 3 — Portugal | 2023 | 2,6 | 4,3 | 99,1 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:99.1:2023,
+3,,1.9,"Tableau 1, page 3 — Portugal | 2024 | 1,9 | 2,6 | 95,7 | Observé × PIB réel (%)",table,extracted,gdp_growth:1.9:2024,
+3,,2.6,"Tableau 1, page 3 — Portugal | 2024 | 1,9 | 2,6 | 95,7 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.6:2024,
+3,,95.7,"Tableau 1, page 3 — Portugal | 2024 | 1,9 | 2,6 | 95,7 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:95.7:2024,
+3,,2.2,"Tableau 1, page 3 — Portugal | 2025 | 2,2 | 2,3 | 92,8 | Prévision × PIB réel (%)",table,extracted,gdp_growth:2.2:2025,
+3,,2.3,"Tableau 1, page 3 — Portugal | 2025 | 2,2 | 2,3 | 92,8 | Prévision × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.3:2025,
+3,,92.8,"Tableau 1, page 3 — Portugal | 2025 | 2,2 | 2,3 | 92,8 | Prévision × Dette publique (% PIB)",table,extracted,public_debt_ratio:92.8:2025,
+3,,1.9,"Tableau 1, page 3 — Thaïlande | 2023 | 1,9 | 1,2 | 62,4 | Observé × PIB réel (%)",table,extracted,gdp_growth:1.9:2023,
+3,,1.2,"Tableau 1, page 3 — Thaïlande | 2023 | 1,9 | 1,2 | 62,4 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:1.2:2023,
+3,,62.4,"Tableau 1, page 3 — Thaïlande | 2023 | 1,9 | 1,2 | 62,4 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:62.4:2023,
+3,,2.5,"Tableau 1, page 3 — Thaïlande | 2024 | 2,5 | 0,7 | 63,1 | Observé × PIB réel (%)",table,extracted,gdp_growth:2.5:2024,
+3,,0.7,"Tableau 1, page 3 — Thaïlande | 2024 | 2,5 | 0,7 | 63,1 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:0.7:2024,
+3,,63.1,"Tableau 1, page 3 — Thaïlande | 2024 | 2,5 | 0,7 | 63,1 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:63.1:2024,
+3,,2.8,"Tableau 1, page 3 — Thaïlande | 2025 | 2,8 | 1,1 | 64,0 | Estimé × PIB réel (%)",table,extracted,gdp_growth:2.8:2025,
+3,,1.1,"Tableau 1, page 3 — Thaïlande | 2025 | 2,8 | 1,1 | 64,0 | Estimé × Inflation moyenne (%)",table,extracted,inflation_annual_average:1.1:2025,
+3,,64.0,"Tableau 1, page 3 — Thaïlande | 2025 | 2,8 | 1,1 | 64,0 | Estimé × Dette publique (% PIB)",table,extracted,public_debt_ratio:64.0:2025,
+3,,-1.1,"Tableau 1, page 3 — Argentine | 2023 | -1,1 | 211,0 | 154,5 | Observé × PIB réel (%)",table,extracted,gdp_growth:-1.1:2023,
+3,,211.0,"Tableau 1, page 3 — Argentine | 2023 | -1,1 | 211,0 | 154,5 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:211.0:2023,
+3,,154.5,"Tableau 1, page 3 — Argentine | 2023 | -1,1 | 211,0 | 154,5 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:154.5:2023,
+3,,-1.7,"Tableau 1, page 3 — Argentine | 2024 | -1,7 | 118,3 | 83,2 | Observé × PIB réel (%)",table,extracted,gdp_growth:-1.7:2024,
+3,,118.3,"Tableau 1, page 3 — Argentine | 2024 | -1,7 | 118,3 | 83,2 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:118.3:2024,
+3,,83.2,"Tableau 1, page 3 — Argentine | 2024 | -1,7 | 118,3 | 83,2 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:83.2:2024,
+3,,4.8,"Tableau 1, page 3 — Argentine | 2025 | 4,8 | 42,0 | 76,4 | Prévision × PIB réel (%)",table,extracted,gdp_growth:4.8:2025,
+3,,42.0,"Tableau 1, page 3 — Argentine | 2025 | 4,8 | 42,0 | 76,4 | Prévision × Inflation moyenne (%)",table,extracted,inflation_annual_average:42.0:2025,
+3,,76.4,"Tableau 1, page 3 — Argentine | 2025 | 4,8 | 42,0 | 76,4 | Prévision × Dette publique (% PIB)",table,extracted,public_debt_ratio:76.4:2025,
+3,,3.6,"Tableau 1, page 3 — Malaisie | 2023 | 3,6 | 2,5 | 62,9 | Observé × PIB réel (%)",table,extracted,gdp_growth:3.6:2023,
+3,,2.5,"Tableau 1, page 3 — Malaisie | 2023 | 3,6 | 2,5 | 62,9 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.5:2023,
+3,,62.9,"Tableau 1, page 3 — Malaisie | 2023 | 3,6 | 2,5 | 62,9 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:62.9:2023,
+3,,5.1,"Tableau 1, page 3 — Malaisie | 2024 | 5,1 | 1,8 | 64,1 | Observé × PIB réel (%)",table,extracted,gdp_growth:5.1:2024,
+3,,1.8,"Tableau 1, page 3 — Malaisie | 2024 | 5,1 | 1,8 | 64,1 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:1.8:2024,
+3,,64.1,"Tableau 1, page 3 — Malaisie | 2024 | 5,1 | 1,8 | 64,1 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:64.1:2024,
+3,,4.6,"Tableau 1, page 3 — Malaisie | 2025 | 4,6 | 2,0 | 65,0 | Prévision × PIB réel (%)",table,extracted,gdp_growth:4.6:2025,
+3,,2.0,"Tableau 1, page 3 — Malaisie | 2025 | 4,6 | 2,0 | 65,0 | Prévision × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.0:2025,
+3,,65.0,"Tableau 1, page 3 — Malaisie | 2025 | 4,6 | 2,0 | 65,0 | Prévision × Dette publique (% PIB)",table,extracted,public_debt_ratio:65.0:2025,
+3,,0.2,"Tableau 1, page 3 — Pologne | 2023 | 0,2 | 11,4 | 49,7 | Observé × PIB réel (%)",table,extracted,gdp_growth:0.2:2023,
+3,,11.4,"Tableau 1, page 3 — Pologne | 2023 | 0,2 | 11,4 | 49,7 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:11.4:2023,
+3,,49.7,"Tableau 1, page 3 — Pologne | 2023 | 0,2 | 11,4 | 49,7 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:49.7:2023,
+3,,2.9,"Tableau 1, page 3 — Pologne | 2024 | 2,9 | 3,7 | 55,3 | Observé × PIB réel (%)",table,extracted,gdp_growth:2.9:2024,
+3,,3.7,"Tableau 1, page 3 — Pologne | 2024 | 2,9 | 3,7 | 55,3 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:3.7:2024,
+3,,55.3,"Tableau 1, page 3 — Pologne | 2024 | 2,9 | 3,7 | 55,3 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:55.3:2024,
+3,,3.4,"Tableau 1, page 3 — Pologne | 2025 | 3,4 | 4,1 | 59,0 | Prévision × PIB réel (%)",table,extracted,gdp_growth:3.4:2025,
+3,,4.1,"Tableau 1, page 3 — Pologne | 2025 | 3,4 | 4,1 | 59,0 | Prévision × Inflation moyenne (%)",table,extracted,inflation_annual_average:4.1:2025,
+3,,59.0,"Tableau 1, page 3 — Pologne | 2025 | 3,4 | 4,1 | 59,0 | Prévision × Dette publique (% PIB)",table,extracted,public_debt_ratio:59.0:2025,
+3,,4.3,"Tableau 1, page 3 — Sénégal | 2023 | 4,3 | 5,9 | 73,4 | Observé × PIB réel (%)",table,extracted,gdp_growth:4.3:2023,
+3,,5.9,"Tableau 1, page 3 — Sénégal | 2023 | 4,3 | 5,9 | 73,4 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:5.9:2023,
+3,,73.4,"Tableau 1, page 3 — Sénégal | 2023 | 4,3 | 5,9 | 73,4 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:73.4:2023,
+3,,6.1,"Tableau 1, page 3 — Sénégal | 2024 | 6,1 | 2,2 | 76,3 | Observé × PIB réel (%)",table,extracted,gdp_growth:6.1:2024,
+3,,2.2,"Tableau 1, page 3 — Sénégal | 2024 | 6,1 | 2,2 | 76,3 | Observé × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.2:2024,
+3,,76.3,"Tableau 1, page 3 — Sénégal | 2024 | 6,1 | 2,2 | 76,3 | Observé × Dette publique (% PIB)",table,extracted,public_debt_ratio:76.3:2024,
+3,,8.4,"Tableau 1, page 3 — Sénégal | 2025 | 8,4 | 2,0 | 78,1 | Prévision × PIB réel (%)",table,extracted,gdp_growth:8.4:2025,
+3,,2.0,"Tableau 1, page 3 — Sénégal | 2025 | 8,4 | 2,0 | 78,1 | Prévision × Inflation moyenne (%)",table,extracted,inflation_annual_average:2.0:2025,
+3,,78.1,"Tableau 1, page 3 — Sénégal | 2025 | 8,4 | 2,0 | 78,1 | Prévision × Dette publique (% PIB)",table,extracted,public_debt_ratio:78.1:2025,
+3,,6.8,"Tableau 2, page 3 — Portugal | 2024-Q2 | Chômage | 6,8 | % | Observé × Chômage",table,extracted,unemployment_rate:6.8:2024-Q2,
+3,,6.6,"Tableau 2, page 3 — Portugal | 2024-Q3 | Chômage | 6,6 | % | Observé × Chômage",table,extracted,unemployment_rate:6.6:2024-Q3,
+3,,6.4,"Tableau 2, page 3 — Portugal | 2024-Q4 | Chômage | 6,4 | % | Observé × Chômage",table,extracted,unemployment_rate:6.4:2024-Q4,
+3,,2.9,"Tableau 2, page 3 — Pologne | 2024-Q2 | Chômage harmonisé | 2,9 | % | Observé × Chômage harmonisé",table,extracted,unemployment_rate:2.9:2024-Q2,
+3,,3.0,"Tableau 2, page 3 — Pologne | 2025-Q1 | Chômage harmonisé | 3,0 | % | Observé × Chômage harmonisé",table,extracted,unemployment_rate:3.0:2025-Q1,
+3,,3.1,"Tableau 2, page 3 — Pologne | 2025-Q2 | Chômage harmonisé | 3,1 | % | Observé × Chômage harmonisé",table,extracted,unemployment_rate:3.1:2025-Q2,
+3,,0.9,"Tableau 2, page 3 — Thaïlande | 2024-M11 | Inflation | 0,9 | % | Observé × Inflation",table,extracted,inflation_rate:0.9:2024-M11,
+3,,1.2,"Tableau 2, page 3 — Thaïlande | 2024-M12 | Inflation | 1,2 | % | Observé × Inflation",table,extracted,inflation_rate:1.2:2024-M12,
+3,,2.0,"Tableau 2, page 3 — Thaïlande | 2025-M02 | Taux directeur | 2,00 | % | Observé × Taux directeur",table,extracted,policy_rate:2.0:2025-M02,
+3,,1.7,"Tableau 2, page 3 — Malaisie | 2025-M01 | Inflation | 1,7 | % | Observé × Inflation",table,extracted,inflation_rate:1.7:2025-M01,
+4,,1.9,"Tableau 1, page 4 — Malaisie | 2025-M03 | Inflation | 1,9 | % | Observé × Inflation",table,extracted,inflation_rate:1.9:2025-M03,

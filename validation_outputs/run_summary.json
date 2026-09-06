@@ -1,0 +1,60 @@
+[
+  {
+    "file": "ecolingua_v428_complex_multi_test(6).pdf",
+    "pages": 6,
+    "kept_pages": 6,
+    "rows": 96,
+    "runtime_seconds": 12.155,
+    "statuses": {
+      "Validé": 76,
+      "À vérifier": 18,
+      "Rejeté": 2
+    },
+    "indicators": {
+      "gdp_growth": 20,
+      "unemployment_rate": 12,
+      "inflation_rate": 10,
+      "inflation_annual_average": 10,
+      "public_debt_ratio": 8,
+      "current_account_balance": 7,
+      "exports": 7,
+      "budget_deficit": 7,
+      "foreign_exchange_reserves": 4,
+      "imports": 2,
+      "foreign_direct_investment": 2,
+      "public_revenue": 2,
+      "primary_balance": 1,
+      "imports_growth": 1,
+      "public_expenditure": 1,
+      "policy_rate": 1,
+      "exports_growth": 1
+    }
+  },
+  {
+    "file": "competitivite-prix-de-l-economie-tunisienne - Copy.pdf",
+    "pages": 34,
+    "kept_pages": 29,
+    "rows": 37,
+    "runtime_seconds": 16.79,
+    "statuses": {
+      "À vérifier": 21,
+      "Validé": 14,
+      "Rejeté": 2
+    },
+    "indicators": {
+      "inflation_rate": 11,
+      "exchange_rate_change": 4,
+      "labor_productivity": 4,
+      "real_money_market_rate": 4,
+      "gdp_growth": 3,
+      "food_inflation": 2,
+      "money_market_rate": 2,
+      "nominal_wage_rate": 2,
+      "policy_rate": 1,
+      "unit_labor_cost": 1,
+      "value_added_price": 1,
+      "competitiveness_index": 1,
+      "imports": 1
+    }
+  }
+]

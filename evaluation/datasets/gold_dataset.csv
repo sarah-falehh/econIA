@@ -1,0 +1,15 @@
+document_id,event_id,country,indicator,value,unit,year,quarter,observation_type
+benchmark_v1,1,Tunisie,Taux d’inflation des prix à la consommation,7.0,%,2024,,observed
+benchmark_v1,2,Tunisie,Taux d’inflation des prix à la consommation,9.1,%,2023,,observed
+benchmark_v1,3,Tunisie,Taux d’inflation des prix à la consommation,8.3,%,2022,,observed
+benchmark_v1,4,Tunisie,Encours de la dette publique,126540,million TND,2024,,observed
+benchmark_v1,5,Tunisie,Dette publique (% du PIB),79.8,% du PIB,2024,,observed
+benchmark_v1,6,Tunisie,Dette publique (% du PIB),80.2,% du PIB,2023,,observed
+benchmark_v1,7,Tunisie,Taux de chômage,16.4,%,2024,4,observed
+benchmark_v1,8,Tunisie,Taux de chômage,16.0,%,2024,3,observed
+benchmark_v1,9,Tunisie,Exportations de biens et services,62.1,milliard TND,2024,,observed
+benchmark_v1,10,Tunisie,Importations de biens et services,70.4,milliard TND,2024,,observed
+benchmark_v1,11,Tunisie,Investissements directs étrangers (IDE),2.8,milliard TND,2024,,observed
+benchmark_v1,12,Tunisie,Investissements directs étrangers (IDE),2.4,milliard TND,2023,,observed
+benchmark_v1,13,Tunisie,Taux de croissance du PIB (variation annuelle),2.1,%,2025,,forecast
+benchmark_v1,14,Tunisie,Taux de croissance du PIB (variation annuelle),1.4,%,2024,,observed

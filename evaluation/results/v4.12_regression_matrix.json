@@ -1,0 +1,14 @@
+{
+  "pdf": {
+    "events": 500,
+    "m12": 60,
+    "missing_source": 0,
+    "nan_unit_tokens": 0,
+    "econometric_noise": 0
+  },
+  "multisource": {
+    "events": 55,
+    "missing_country": 0,
+    "document_ids": 11
+  }
+}

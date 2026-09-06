@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="t d">
+<title id="t">Econia mark</title><desc id="d">A coral letter E connected to structured economic data nodes on navy.</desc>
+<defs><linearGradient id="g" x2="1" y2="1"><stop stop-color="#071A33"/><stop offset="1" stop-color="#164D78"/></linearGradient><filter id="s"><feDropShadow dy="10" stdDeviation="12" flood-opacity=".3"/></filter></defs>
+<rect width="512" height="512" rx="112" fill="url(#g)"/><circle cx="256" cy="256" r="150" fill="none" stroke="#2D6E91" stroke-width="2" stroke-dasharray="8 12"/>
+<g stroke="#62C6E8" stroke-width="8" fill="none" opacity=".9"><path d="M298 172h74l35-35"/><path d="M298 256h109"/><path d="M298 340h74l35 35"/></g>
+<g fill="#DDF5AE"><circle cx="407" cy="137" r="13"/><circle cx="407" cy="256" r="13"/><circle cx="407" cy="375" r="13"/></g>
+<g filter="url(#s)"><circle cx="220" cy="256" r="132" fill="#FF6558"/><path d="M158 154h146v42H205v39h86v41h-86v40h103v42H158z" fill="#fff"/></g>
+</svg>
