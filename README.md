@@ -46,7 +46,7 @@ Econia turns an experimental document-extraction prototype into a **testable eco
 <tr><td><b>Arabic numerical coverage</b></td><td><b>0 unresolved tokens</b></td><td>Recorded on two synthetic Arabic validation PDFs producing 32 and 44 rows.</td></tr>
 </table>
 
-### PFE-level technical contribution
+### technical contribution
 
 - Designed a **multilingual economic event schema** rather than returning unstructured text or summaries.
 - Implemented a **clause-aware semantic binder** for many-to-many indicator/value/period relations, shared units and ordered comparisons.
