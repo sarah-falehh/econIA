@@ -8,12 +8,12 @@
 [![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)](#installation)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.36%2B-FF4B4B?logo=streamlit&logoColor=white)](#run-econia)
 [![Languages](https://img.shields.io/badge/Languages-FR%20%7C%20AR%20%7C%20EN-1059B5)](#multilingual-processing)
-[![Tests](https://img.shields.io/badge/Regression-225%20passed-16865C)](#verified-results)
+[![Tests](https://img.shields.io/badge/Regression-225%20passed-16865C)](#evaluation-protocol)
 [![CI](https://github.com/sarah-falehh/Econia/actions/workflows/tests.yml/badge.svg)](https://github.com/sarah-falehh/Econia/actions/workflows/tests.yml)
 [![Architecture](https://img.shields.io/badge/Architecture-Hybrid%20NLP-082B50)](#architecture)
 [![Runtime](https://img.shields.io/badge/Runtime-CPU--friendly-ED1C2E)](#engineering-principles)
 
-[Overview](#overview) · [Screenshots](#product-tour) · [Architecture](#architecture) · [Evaluation](#verified-results) · [Install](#installation) · [Roadmap](#roadmap)
+[Impact](#engineering-impact) · [Screenshots](#product-tour) · [Architecture](#architecture) · [Evaluation](#evaluation-protocol) · [Install](#installation) · [Roadmap](#roadmap)
 </div>
 
 ---
@@ -31,6 +31,32 @@ Econia uses an auditable hybrid pipeline: deterministic parsing, configurable ec
 
 > [!IMPORTANT]
 > Passing tests does not prove universal reliability on every possible PDF. Econia reports ambiguity and preserves evidence for human review. Scanned PDFs still require OCR, and arbitrary chart data cannot always be reconstructed safely.
+
+## Engineering impact
+
+Econia turns an experimental document-extraction prototype into a **testable economic information system**. The main contribution is not a single model score: it is the combination of semantic coverage, structured evidence, regression protection and CPU-efficient execution.
+
+<table>
+<tr><th>Measured outcome</th><th>Result</th><th>Why it matters</th></tr>
+<tr><td><b>Regression protection</b></td><td><b>225/225 tests passed</b></td><td>Previously corrected semantic cases remain protected across French, Arabic, tables, periods, conflicts and exports.</td></tr>
+<tr><td><b>Frozen GOLD benchmark</b></td><td><b>14 TP · 0 FP · 0 FN</b></td><td>Exact extraction on the fixed regression corpus, including indicator, value, unit, period, country and fact type.</td></tr>
+<tr><td><b>Benchmark quality</b></td><td><b>Precision 100% · Recall 100% · F1 100%</b></td><td>Measured only on the 14-event frozen GOLD set; reported with its scope to avoid inflated claims.</td></tr>
+<tr><td><b>Benchmark efficiency</b></td><td><b>1.669 s · 8.39 events/s</b></td><td>CPU execution without a large generative model.</td></tr>
+<tr><td><b>Benchmark memory</b></td><td><b>26,420 KiB peak RSS</b></td><td>Lightweight enough for a standard laptop in the recorded Linux environment.</td></tr>
+<tr><td><b>Arabic numerical coverage</b></td><td><b>0 unresolved tokens</b></td><td>Recorded on two synthetic Arabic validation PDFs producing 32 and 44 rows.</td></tr>
+</table>
+
+### PFE-level technical contribution
+
+- Designed a **multilingual economic event schema** rather than returning unstructured text or summaries.
+- Implemented a **clause-aware semantic binder** for many-to-many indicator/value/period relations, shared units and ordered comparisons.
+- Added **finite-state temporal reasoning** for years, quarters, months, ranges, averages and relative periods.
+- Built a **geometry-aware table path** that preserves row headers, column headers, sectors, periods and source coordinates.
+- Isolated **Arabic RTL normalization** behind language gates to prevent regressions in the French pipeline.
+- Introduced a **numerical reconciliation invariant** so unlinked economic numbers are reported rather than silently discarded.
+- Developed **confidence-aware validation**, explicit review states, contradiction detection and evidence provenance.
+- Established a **GOLD evaluation and permanent regression methodology** instead of evaluating against the application's own CSV output.
+- Delivered an analyst-facing Streamlit product with authentication, role-based access, human validation, series, comparisons and export.
 
 ## Product tour
 
@@ -62,6 +88,30 @@ Econia uses an auditable hybrid pipeline: deterministic parsing, configurable ec
 | Numerical reconciliation | Each economic-looking number is extracted, reviewed or excluded with a reason. |
 | Human validation | Review and correction with an auditable history. |
 | Analytics | Time series, duplicate-period resolution, comparisons and exports. |
+
+## Technical stack and methods
+
+| Layer | Technology / method | Role in the system |
+| --- | --- | --- |
+| PDF ingestion | **PyMuPDF** | Text blocks, pages, coordinates and table geometry. |
+| Data processing | **pandas · NumPy** | Event normalization, reconciliation, series and exports. |
+| Language routing | **langdetect + Unicode/RTL rules** | Language dominance and isolated Arabic normalization. |
+| Lightweight ML | **word TF-IDF (1–2 grams) + character TF-IDF (3–5 grams) + balanced Logistic Regression** | Classifies economic sentences with multilingual lexical and morphological signals. |
+| Semantic NLP | **Economic ontology + local relation rules** | Indicator heads, aliases, units, currencies and semantic binding. |
+| Temporal NLP | **Finite-state resolver** | Absolute, ranged and relative periods with controlled inheritance. |
+| Structured extraction | **Geometry-aware intermediate table representation** | Cell-to-header binding without flattening tables into prose. |
+| Quality control | **Constraint validation + reconciliation** | Confidence, warnings, review decisions and unexplained-number detection. |
+| Persistence | **SQLite** | Analyses, events, corrections, users and audit logs. |
+| Product layer | **Streamlit + Plotly** | Interactive validation, time series, comparison and export. |
+| Verification | **pytest + frozen GOLD matcher** | Non-regression and event/field-level evaluation. |
+
+### Why a hybrid NLP architecture?
+
+A large LLM can produce fluent output while silently changing a value, period or unit. Econia therefore assigns critical bindings through deterministic, inspectable components and uses lightweight ML only where it is measurable and reproducible. This provides lower hardware cost, stable inference and direct error attribution—important properties for institutional economic data.
+
+### Lightweight classifier design
+
+The serialized scikit-learn pipeline combines a word-level TF-IDF space capped at 12,000 features with a character `char_wb` TF-IDF space capped at 18,000 features. Word bigrams capture expressions such as economic indicator names, while 3–5 character grams improve robustness to inflection, accents and multilingual spelling variation. A class-balanced Logistic Regression classifier (`C=4.0`, `max_iter=2500`, fixed random seed) provides deterministic CPU inference. This classifier supports content selection; it does not generate values or override evidence-based semantic validation.
 
 ## Architecture
 
@@ -104,7 +154,7 @@ Every numerical mention receives a trace outcome: extracted, retained as **Needs
 
 Arabic processing is isolated behind language-dominance gates so RTL repairs cannot alter French selection. It handles Arabic-Indic and Western digits, displaced percentage/currency signs, Arabic economic terminology, ordered geography lists, shared periods and flattened RTL tables. Image-only documents require OCR.
 
-## Verified results
+## Evaluation protocol
 
 These measurements are regression evidence, not a universal accuracy claim.
 
@@ -116,8 +166,18 @@ These measurements are regression evidence, not a universal accuracy claim.
 | Arabic Algeria independent synthetic PDF | **44 rows; 0 unresolved numerical tokens** |
 | Frozen regression GOLD | **14/14 exact events** |
 | GOLD precision / recall / F1 / exact match | **100% / 100% / 100% / 100%** on this small fixed corpus only |
+| GOLD field accuracy | **100%** for country, indicator, value, unit, period and fact type |
+| GOLD execution | **1.669 s · 8.39 events/s · 26,420 KiB peak RSS** |
 
 See [`evaluation/README.md`](evaluation/README.md) for matching rules. Never use an application-generated CSV as GOLD; freeze manually verified annotations and keep unseen documents in a holdout corpus.
+
+The repository separates three kinds of evidence:
+
+1. **unit and regression tests** for permanent behavior protection;
+2. **frozen GOLD annotations** for exact event and field-level metrics;
+3. **document-level validation runs** for numerical coverage, statuses, runtime and unresolved mentions.
+
+Precision, recall and F1 are not reported for a document until its independent manual GOLD annotation is complete. Event count alone is never presented as extraction accuracy.
 
 ```bash
 python evaluation/evaluate.py --version v5.5

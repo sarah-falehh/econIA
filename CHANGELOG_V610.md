@@ -11,6 +11,8 @@
 - Rebuilt the public README as a complete repository landing page.
 - Added a vector banner, architecture diagram, reliability workflow and event schema.
 - Added six polished product screenshots for GitHub and LinkedIn.
+- Added a PFE-oriented engineering-impact section with reproducible quality, runtime, throughput and memory metrics.
+- Documented the exact TF-IDF and balanced Logistic Regression classifier architecture.
 
 ## Scope protection
 
