@@ -1,5 +1,5 @@
 <div align="center">
-<img src="docs/assets/econia-readme-banner.svg" alt="Econia — Economic Document Intelligence" width="100%">
+<img src="docs/assets/diagrams/banner.png" alt="Econia — Economic Document Intelligence" width="100%">
 
 # Econia
 ### Multilingual Economic Document Intelligence
